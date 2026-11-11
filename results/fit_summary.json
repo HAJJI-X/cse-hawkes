@@ -1,0 +1,20 @@
+{
+  "garch_aic": 5249.65298973188,
+  "hawkes": {
+    "mu": 0.026299424085757025,
+    "alpha": 0.2000114809104409,
+    "beta": 0.42176381417996306,
+    "branching_ratio": 0.47422627116393085,
+    "nll": 442.5984689705463,
+    "n_events": 125,
+    "success": true
+  },
+  "poisson_nll": 499.4165241915814,
+  "hawkes_beats_poisson_on_nll": true,
+  "note": "Early run on synthetic data not real MASI results",
+  "data_path": "data/synthetic/masi_synthetic.csv",
+  "n_obs": 2500,
+  "exceedance_threshold": -0.014938347029309318,
+  "n_exceedances": 125,
+  "garch_persistence": 0.8400963323018691
+}

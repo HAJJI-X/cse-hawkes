@@ -1,0 +1,21 @@
+[project]
+name = "cse-hawkes"
+version = "0.1.0"
+description = "Hawkes and GARCH on the Casablanca Stock Exchange"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "matplotlib",
+  "arch",
+  "statsmodels",
+  "jupyter",
+  "pyyaml",
+  "python-dotenv",
+  "openpyxl",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
